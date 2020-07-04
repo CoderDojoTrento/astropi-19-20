@@ -1,6 +1,7 @@
-# astropi-19-20
 
-In this repository we collected reports and code of three teams that we helped particpating in [AstroPi Mission Space Lab](https://astro-pi.org/missions/space-lab/) 2019/20:
+# Astropi Mission Space Lab Challenge 2019-20
+
+In this repository we collected reports and code of teams we helped participate in [AstroPi Mission Space Lab Challenge](https://astro-pi.org/missions/space-lab/) promoted by European Space Agency and Raspberry Foundation:
 
 [Team Greta in The Space](gretainthespace) (Liceo Scientifico Da Vinci, Trento, Italy) : Detecting plastic islands in the oceans
 
