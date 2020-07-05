@@ -24,5 +24,5 @@ occurred, both human and natural. We hope for sporadic reforestation in areas
 corresponding to the presence of artificial lakes.
 
 
-* [UMap with pictures](http://umap.openstreetmap.fr/en/map/astropi-2020-uranoteam_459679#3)
-* [Images collected by ISS](https://drive.google.com/open?id=1AZrZaYmTBLASaMu5ApU6FdAVkMBS0y8v)
+* [UMap](http://umap.openstreetmap.fr/en/map/astropi-2020-uranoteam_459679#3) (click on the dots to display pics)
+* [All ISS data](https://drive.google.com/open?id=1AZrZaYmTBLASaMu5ApU6FdAVkMBS0y8v)

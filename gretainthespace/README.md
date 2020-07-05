@@ -27,5 +27,5 @@ for detecting healthy vegetation, but it was also used to individuate plastic in
 coastal water by Biermann et al. ​(2)
 
 
-* [UMap with pictures](http://umap.openstreetmap.fr/en/map/astropi-2020-greta-in-the-space_460915#2/-1.8/31.1)
-* [Images collected by ISS](https://drive.google.com/open?id=1zysa2nbiV_aiCXweiQecQ_v6Q6WLaD1-) 
+* [UMap](http://umap.openstreetmap.fr/en/map/astropi-2020-greta-in-the-space_460915#2/-1.8/31.1) (click on the dots to display pics)
+* [All ISS data](https://drive.google.com/open?id=1zysa2nbiV_aiCXweiQecQ_v6Q6WLaD1-)
