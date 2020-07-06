@@ -10,11 +10,11 @@
 #    - added console option parsing
 
 from PIL import Image
+import csv
 import numpy
 import sys
 import os
 import time
-import csv
 import matplotlib
 from matplotlib import pyplot as plt
 startTime = time.time()
@@ -25,6 +25,7 @@ def convertImage(filename):
     # Opens image to be converted
     img = Image.open('%s/%s' % (in_dir,filename))
     
+    """
     # crop ellipse
     from PIL import ImageDraw
     offset = 100
@@ -37,6 +38,7 @@ def convertImage(filename):
     draw.ellipse((offset, -300, img.size[0] - offset, img.size[1]), fill=255)
     img = Image.composite(img, background, mask)    
     # end crop ellipse
+   """
         
     
     # Places red and blue values in numpy arrays
@@ -66,9 +68,9 @@ def convertImage(filename):
        vmin = numpy.nanmin(arrIndex)
        vmax = numpy.nanmax(arrIndex)
     
-    dpi   = 600 #int(img_w/fig_w)
-    vmin  = -1 #most negative Index value
-    vmax  = 1 #most positive Index value
+    dpi   = 600#int(img_w/fig_w)
+    vmin  = -0.4 #most negative Index value
+    vmax  = 0.1 #most positive Index value
     
     found_min = numpy.nanmin(arrIndex)
     found_max = numpy.nanmax(arrIndex)
@@ -162,10 +164,9 @@ if not os. path. isdir(out_dir):
     print('Creating dir', out_dir)
     os.makedirs(out_dir)
 
-file_paths = sorted(os.listdir(in_dir))
+file_paths = os.listdir(in_dir)
 print()
 print('Found', len(file_paths), 'files to process in folder', in_dir)
-
 with open(out_dir + '/ProcessedIndex.csv', 'w', newline='') as csvfile_out:
 
     my_writer = csv.writer(csvfile_out, delimiter=',')
@@ -181,3 +182,4 @@ with open(out_dir + '/ProcessedIndex.csv', 'w', newline='') as csvfile_out:
         my_writer.writerow([file_path, avgIndex])
           
 print('time taken %s seconds' %(time.time() - startTime))
+    
